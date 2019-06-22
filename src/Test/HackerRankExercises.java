@@ -15,10 +15,10 @@ public class HackerRankExercises {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        //Calling Exercise 1
+        //Call Exercise 1
         System.out.println(esPrimo(40));
-        //Exercise 2
+        
+        //Call Exercise 2
         LinkedList<String> piedras = new LinkedList();
         piedras.add("bc");
         piedras.add("bec");
@@ -26,6 +26,7 @@ public class HackerRankExercises {
         
         System.out.println(rockElements(piedras));
     }
+    //Exercise 1
     public static int esPrimo(long n){
         int resp;
         int cont = 0;
@@ -49,7 +50,7 @@ public class HackerRankExercises {
 
         return resp;
     }
-    
+    //Exercise 2
     public static String rockElements(LinkedList<String> rocks){
         String elements="";
         boolean cont = true;
